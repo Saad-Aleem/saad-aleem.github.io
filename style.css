@@ -47,7 +47,7 @@
     border: 0.25vw rgb(133, 15, 133);
     border-radius: 5vw;
     border-style: solid;
-    padding: 100px;
+    padding: 50px;
     display: block;
     position: relative;
 }
@@ -85,7 +85,7 @@
     border: 0.25vw rgb(133, 15, 133);
     border-radius: 5vw;
     border-style: solid;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 100px;
     display: block;
     position: relative;
@@ -128,7 +128,7 @@
     border: 0.25vw rgb(133, 15, 133);
     border-radius: 5vw;
     border-style: solid;
-    padding: 100px;
+    padding: 50px;
     display: block;
     position: relative;
     font-size: 1.5vw;
