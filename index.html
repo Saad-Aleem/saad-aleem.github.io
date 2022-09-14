@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/603781.png">
+    <title>Saad Aleem: The Generalist</title>
+</head>
+
+<body>
+    <div class="navContainer">
+        <nav>
+            <button onclick="myFunction('About')">About Me</button>
+            <button onclick="myFunction('Skills')">Skills</button>
+            <button onclick="myFunction('Contact')">Contact Me</button>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="hiddenContainerAbout" id="About">
+            <img src="/603781.png" alt="build">
+            <div id="hi">Hi, I am</div>
+            <div id="name">Saad Aleem: The Generalist</div>
+            <div id="about">
+                I am <span class="auto-typed"></span>
+            </div>
+            <div id="philosophy">
+                <p>I am a <strong>Generalist</strong> who cannot be stopped by anything
+                    when it comes to learning new things.
+                    Learning is Freedom
+                    and being a Generalist gifts you that Freedom.</p>
+            </div>
+        </div>
+        <div class="hiddenContainerSkills" id="Skills">
+            <button class="accordion">Python and Data Science</button>
+            <div class="panel" style="display: none;">
+                <ul>
+                    <li>I have third rank in <a href="https://www.codewars.com/users/SaadAleem">Code Wars</a>.
+                        This showcases my capabilities in Python.</li>
+                    <li>Understanding Customer Churn: This project was a classification problem
+                        which showed me the problems that can arise with the accuracy of the results.
+                        Check the code out <a
+                            href="https://colab.research.google.com/drive/1TQ165nZLHSIeSAyXfRn6wdQ70IpmUdfc#scrollTo=03087e09">here</a>.
+                    </li>
+                    <li>Another my relatively beginner level skill is of Django.
+                        Take a look at it <a href="https://github.com/Saad-Aleem/islamiclearning">here</a>.</li>
+                </ul>
+            </div>
+            <button class="accordion">C# and Database</button>
+            <div class="panel" style="display: none;">
+                <p>I created three projects on C#. All three of them integrated SQL with C# in .Net Framework.
+                    Those projects were basically management of different databases with Windows Form Graphical User
+                    Interface.
+                    One of my C# integrations with Microsoft Access is <a
+                        href="https://github.com/Saad-Aleem/C-Sharp-Database-Managment">here</a>.
+                </p>
+            </div>
+            <button class="accordion">Linux</button>
+            <div class="panel" style="display: none;">
+                <p>I started working with Linux three years back. I installed Kali Linux then for almost a year. This
+                    was
+                    because I believe that I learn best when I am pushed into experiencing. Hence, that is what i did.
+                    I am now a user of Ubuntu and I am quiet good at it.
+                </p>
+            </div>
+            <button class="accordion">Web Design and Front End Development</button>
+            <div class="panel" style="display: none;">
+                <p>I believe that this website is a true showcase of my Web Designing and FrontEnd Development
+                    capabilities. I did develop a Django website before but I took most of the things from
+                    Bootstrap. This website of mine is my own harcoded one.
+                </p>
+            </div>
+        </div>
+        <div class="hiddenContainerContact" id="Contact">
+            <p>Contact me on this email: <strong>saadaleem24@gmail.com</strong></p>
+            <p>Follow me on <strong><a href="https://www.linkedin.com/in/saad-a-9006a787">LinkedIn</a></strong></p>
+            <p>Check out my <strong><a href="https://github.com/Saad-Aleem">GitHub</a></strong></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-typed", {
+            strings: ['a Developer', 'a Machine Learning Enthusiast', 'an Entrepreneur'],
+            typeSpeed: 40,
+            backSpeed: 40,
+            loop: true
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

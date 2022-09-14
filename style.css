@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Lobster&family=Ms+Madi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.685); */
+    background-color: rgba(133, 15, 133);
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10;
+}
+
+.navContainer button {
+    width: 15vw;
+    height: 3vw;
+    margin: 1.5vw;
+    border-radius: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.navContainer button:hover {
+    background-color: white;
+    color: rgb(133, 15, 133);
+}
+
+.main {
+    margin-top: 120px;
+}
+
+.hiddenContainerAbout {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    border: 0.25vw rgb(133, 15, 133);
+    border-radius: 5vw;
+    border-style: solid;
+    padding: 100px;
+    display: block;
+    position: relative;
+}
+
+.hiddenContainerAbout img {
+    width: 15vw;
+    position: absolute;
+    right: 10vw;
+    top: 4vh;
+}
+
+.hiddenContainerAbout #hi {
+    font-size: 5vw;
+    font-family: 'Dancing Script';
+}
+
+.hiddenContainerAbout #name {
+    font-size: 4vw;
+    font-family: 'Lobster';
+}
+
+.hiddenContainerAbout #about {
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hiddenContainerAbout #philosophy {
+    font-size: 2vw;
+}
+
+.hiddenContainerSkills {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    border: 0.25vw rgb(133, 15, 133);
+    border-radius: 5vw;
+    border-style: solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    position: relative;
+    font-size: 1.3vw;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.hiddenContainerSkills button {
+    background-color: rgb(133, 15, 133);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.hiddenContainerSkills .active, button:hover {
+    background-color: white;
+    color: rgb(133, 15, 133);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.hiddenContainerSkills .accordion .panel {
+    /* padding: 0 18px; */
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.hiddenContainerContact {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    border: 0.25vw rgb(133, 15, 133);
+    border-radius: 5vw;
+    border-style: solid;
+    padding: 100px;
+    display: block;
+    position: relative;
+    font-size: 1.5vw;
+}
